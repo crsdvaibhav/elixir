@@ -1,0 +1,13 @@
+hidden = [".iex.exs"]
+entrypoint = "hello_world.ex"
+
+[interpreter]
+command = ["iex"]
+
+[env]
+LC_ALL = "en_US.UTF-8"
+HEX_HOME = "$REPL_HOME/.hex"
+MIX_HOME = "$REPL_HOME/.mix"
+
+[nix]
+channel = "stable-22_11"
